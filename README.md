@@ -3,7 +3,6 @@
 # User Manager
 This repo shows how to set up application (node) and database (mongodb) on different nodes communicating using docker containers technology.
 
-
 ### Development
 This application was developed using [ExpressJS](http://expressjs.com/). MongoDB was used for persisting data with [Mongoose](https://mongoosejs.com/) as [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping).
 
@@ -12,7 +11,6 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * Ensure that you've `node` installed on your PC.
 * Clone the repository by entering the command `git clone https://github.com/Onakomaiya/UserManager.git` in the terminal.
 * Navigate to the project folder using `cd UserManager` on your terminal (or command prompt)
-* After cloning, install the application's dependencies with the command `npm install`.
 * Create a `.env` file in your root directory and copy content from `.env.sample` file. Variables such as DB_URL (which must be a mongoDB URL) and PORT are defined in the .env file and it is essential you create this file before running the application.
 ```
 PORT=3000
